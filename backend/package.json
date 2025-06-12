@@ -7,7 +7,7 @@
     "migrate": "npx tsc && node --env-file=.env build/dbmigrate.js",
     "dev1": "npx tsc && node --watch --env-file=.env build/index.js",
     "db": "npx prisma migrate && npx prisma generate",
-    "Dev": "npx tsc && node build/index.js",
+    "Dev": "npx tsc && node --env-file=.env build/index.js",
     "start": "node build/index.js"
   },
   "license": "MIT",
@@ -17,14 +17,14 @@
     "express-session": "^1.18.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.2",
-    "mongoose-auto-increment": "^5.0.1",
     "mongoose-plugin-autoinc": "^1.1.9",
     "multer": "^1.4.5-lts.1",
     "mysql": "^2.18.1",
     "mysql2": "^3.11.4",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
-    "vercel": "^39.1.0"
+    "vercel": "^39.1.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

@@ -74,7 +74,7 @@ MONGO=   #mongo uri
 
 - Run the dev server
 ```bash
-npm run dev1
+npm run Dev
 ```
 
 
@@ -87,7 +87,7 @@ yarn install
 ```
 
 
-- Change the backend url in frontend/src/backendUrl.ts
+- Change the backend url in `frontend/src/backendUrl.ts`
 - Add the fronend Url in .env file in `/backend`
 
 3. Run the development server
@@ -95,4 +95,15 @@ yarn install
 npm run dev
 ```
 
+OR
+
+#### Build in production
+```bash
+npm run build
+```
+- then serve
+
+```bash
+npx serve -s dist -p 5173
+```
 

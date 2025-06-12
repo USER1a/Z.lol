@@ -153,7 +153,7 @@ const ProfilePage: React.FC = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full animate-pulse blur-xl opacity-50" />
             <img
-              src={profilePicture || '/default-avatar.png'}
+              src={profilePicture || '/p.png'}
               alt={name[0]?.toUpperCase()}
               className="relative w-24 h-24 rounded-full border-2 border-white/50 object-cover"
             />

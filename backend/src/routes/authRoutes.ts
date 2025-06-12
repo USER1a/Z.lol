@@ -22,7 +22,7 @@ router.get('/google/callback',
       { expiresIn: '7d' }
     );
 
-    res.redirect(`${process.env.FRONTEND_URL}/auth-callback?token=${token}`);
+    res.redirect(`${process.env.FRONTEND_URL}/oauth-callback?token=${token}`);
   }
 );
 

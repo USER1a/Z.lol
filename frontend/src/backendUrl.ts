@@ -1,1 +1,1 @@
-export const backendUrl = "https://backend.profilesme.site"
+export const backendUrl = "http://localhost:3000"

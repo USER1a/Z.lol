@@ -7,7 +7,7 @@ export const AuthCallback: React.FC = () => {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const token = urlParams.get('token');
-    // console.log(token)
+    console.log(token)
     if (token) {
       localStorage.setItem('token', token);
       window.location.href = '/dashboard';
