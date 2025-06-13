@@ -73,18 +73,22 @@ MONGO=mongodb://mongo:27017   #mongo uri
 ```
 
 
-### Using Docker
+### Using Docker (Recommended)
 - First Install docker and docker compose.
 - Then:
 ```bash
 cd profilesMe
 ```
-
+- Run the whole app container
 ```bash
 docker compose up
+# Or
+# docker-compose up
 ```
 
-- Run the dev server
+### Or
+### Using npm - yarn
+- Run the server
 ```bash
 npm run Dev
 ```
