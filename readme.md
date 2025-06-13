@@ -49,13 +49,6 @@ git clone https://github.com/sadanandmiskin/profilesme.git
 ```
 
 
-### Running Backend-
-
-- Environment Setup
-```bash
-cd backend
-yarn install
-```
 
 - Create a `.env` file in `/backend` with:
 ```bash
@@ -88,6 +81,16 @@ docker compose up
 
 ### Or
 ### Using npm - yarn
+
+### Running Backend-
+
+- Environment Setup
+```bash
+cd backend
+yarn install
+```
+
+
 - Run the server
 ```bash
 npm run Dev
