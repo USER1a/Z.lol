@@ -69,7 +69,19 @@ GOOGLE_CLIENT_SECRET=
 JWT_SECRET=
 SESSION_SECRET=
 FRONTEND_URL=
-MONGO=   #mongo uri
+MONGO=mongodb://mongo:27017   #mongo uri
+```
+
+
+### Using Docker
+- First Install docker and docker compose.
+- Then:
+```bash
+cd profilesMe
+```
+
+```bash
+docker compose up
 ```
 
 - Run the dev server
