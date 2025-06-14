@@ -55,13 +55,13 @@ import { HomePage } from './components/pages/homepage/HomePage';
 import { AuthCallback } from './components/auth/AuthCallback';
 import { Dashboard } from './components/pages/dashboard/Dashboard';
 
-// import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react"
 
 
 const App: React.FC = () => {
   return (
     <>
-    {/* <Analytics /> */}
+    <Analytics />
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
