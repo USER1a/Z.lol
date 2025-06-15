@@ -59,8 +59,8 @@ DB_NAME=
 PORT=
 GOOGLE_CLIENT_ID=  #get it from google cloud console
 GOOGLE_CLIENT_SECRET=
-JWT_SECRET=
-SESSION_SECRET=
+JWT_SECRET=  # Random String
+SESSION_SECRET=  # Random String
 FRONTEND_URL=
 MONGO=mongodb://mongo:27017   #mongo uri
 ```
